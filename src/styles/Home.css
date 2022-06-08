@@ -1,0 +1,31 @@
+@import './Colors.css';
+
+.home{
+    padding-top: 6rem;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(67,115,207,1) 0%, rgba(67,157,207,1) 100%);
+    /* position: relative; */
+}
+.home .presentation{
+   
+}
+.home .presentation .content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.home .presentation .content .descrip .title .type-1{
+    color: var(--text-secondary-light);
+    font-weight: 600;
+    font-size: 3rem;
+    
+}
+.home .presentation .content .descrip .title .type-2{
+    color: var(--text-warning);
+    font-weight: 900;
+    font-size: 3rem;
+    line-height:.8;
+}
+p{
+    color: #fff;
+}
