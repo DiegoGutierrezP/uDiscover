@@ -34,6 +34,7 @@ header{
     color: #fff;
     transition: .3s;
     font-weight: 700;
+    font-size: 1.2rem;
 }
 .navbar ul li a:hover{
     /* color: var(--text-secondary); */
@@ -63,7 +64,7 @@ header .fa-xmark{
 }
 
 /* Media queries */
-@media (max-width:768px){
+@media (max-width:991px){
     header .fa-solid{
         display: block;
     }
@@ -93,12 +94,19 @@ header .fa-xmark{
     }
     header .navbar ul li a{
         display: block;
+        font-size: 1.5rem;
     }
     header .navbar ul li a:hover{
         border-bottom: 0;
     }
     header .nav-toggle{
-        top: 5rem;
+        top: 5.2rem;
         opacity: 1;
+    }
+}
+@media (max-width:768px){
+    header .nav-toggle{
+        top: 6.5rem;
+        
     }
 }
