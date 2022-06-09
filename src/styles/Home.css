@@ -184,15 +184,18 @@ section{
     bottom: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 
 }
 .metodologia .content{
+    position: relative;
     padding-bottom: 10rem;
     padding-top: 7rem;
     display: flex;
     flex-wrap: wrap-reverse;
     /* align-items: center; */
-    justify-content:space-between
+    justify-content:space-between;
+    z-index: 99;
 }
 .metodologia .content .content-img{
     
@@ -202,23 +205,11 @@ section{
     justify-content: center;
     position: relative;
     transition: .2s linear;
+   
 }
 .metodologia .content .content-img:hover{
     transform: scale(1.05)
 }
-/* .metodologia .content .content-img .capa{
-    position: absolute;
-    top: 0;left: 0;
-    width: 100%;
-    height: 100%;
-    background:rgba(0, 0, 0, 0.8);
-    color: #fff;
-    transition: .2s;
-    opacity: 0;
-}
-.metodologia .content .content-img .capa:hover{
-    opacity: 1;
-} */
 
 .metodologia .content .descrip{
     width: 60%;
@@ -252,8 +243,7 @@ section{
 }
 .metodologia .content .descrip a:hover{
     background: transparent;
-    border: 3px solid var(--bg-orange);
-    color: var(--text-orange);
+    border: 2px solid var(--bg-orange);
     font-weight: 500;
 }
 .planes{
@@ -278,7 +268,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 .planes .content .container .card{
     position: relative;
@@ -377,9 +367,12 @@ section{
 }
 .inscribete{
     position: relative;
-    padding-top: 8rem;
-    padding-bottom: 5rem;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(62,99,169,1) 0%, rgba(0,182,162,1) 100%)
+    padding-top: 12rem;
+    padding-bottom: 7rem;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(62,99,169,1) 0%, rgba(0,182,162,1) 100%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .inscribete .wave{
     position: absolute;
@@ -390,6 +383,7 @@ section{
 }
 .inscribete .form-content{
     position: relative;
+    width: 80%;
     z-index: 999;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,193,7,0.9140698515734419) 0%, rgba(255,193,7,0.9084676106770834) 100%),url('../assets/imgs/fondo-form2.jpg');
    background-size: cover;
@@ -485,7 +479,9 @@ section{
     section{
         padding: 0 5%;
     }
-    
+    .inscribete .form-content{
+        width: 100%;
+    }
 }
 @media (max-width:768px){
     section{
@@ -517,6 +513,7 @@ section{
     .planes .content .container .card .body-card p{
         font-size: 1rem;
     }
+    
 }
 @media (max-width:640px){
     .home .presentation{

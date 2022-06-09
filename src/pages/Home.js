@@ -79,10 +79,9 @@ const Home = () => {
         <section className='metodologia'>
         <div className='content'>
             <div className='content-img'>
+                
                 <img src={metodologia} alt='nina avion'/>
-                {/* <div className='capa'>
-                    asdasda
-                </div> */}
+       
             </div>
             <div className='descrip'>
                 <h2>Educación para la vida</h2>
@@ -99,7 +98,7 @@ const Home = () => {
         </div>
         
         <svg className='wave2' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path /* fill="#f3f4f5" */ /* fill="#f1f5f9" */ fill='#e2e8f0' fill-opacity="1" d="M0,320L1440,256L1440,320L0,320Z"></path>
+            <path /* fill="#f3f4f5" */ /* fill="#f1f5f9" */ fill='#e2e8f0' fill-opacity="1" d="M0,320L1440,256L1440,320L0,320Z"></path>
         </svg>
         </section>
         <section className='planes'>
