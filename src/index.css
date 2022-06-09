@@ -1,3 +1,5 @@
+@import '../src/styles/Colors.css';
+
 body {
   margin: 0;
   font-family: 'Nunito', sans-serif;
@@ -12,8 +14,18 @@ body {
   box-sizing: border-box;
 }
 
+html::-webkit-scrollbar{
+  width: 1rem;
+}
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+  background:var(--bg-secondary);
+}
+
 @media (max-width:768px){
   html{
-    font-size: 70%;
+    font-size: 75%;
   }
 }

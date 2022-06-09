@@ -8,6 +8,7 @@ import educacion from '../assets/imgs/educacion_inter.png';
 import bilin from '../assets/imgs/bilinguismo.png';
 import apoya from '../assets/imgs/apoya.png';
 import metodologia from '../assets/imgs/metodologia.png';
+import colombia from '../assets/imgs/colombia.png';
 
 const Home = () => {
   return (
@@ -98,8 +99,134 @@ const Home = () => {
         </div>
         
         <svg className='wave2' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#f3f4f5" fill-opacity="1" d="M0,320L1440,256L1440,320L0,320Z"></path>
+        <path /* fill="#f3f4f5" */ /* fill="#f1f5f9" */ fill='#e2e8f0' fill-opacity="1" d="M0,320L1440,256L1440,320L0,320Z"></path>
         </svg>
+        </section>
+        <section className='planes'>
+            <div className='content'>
+                <h1 className='title'>Aprovecha nuestros precios especiales con descuento</h1>
+                <div className='container'>
+                    <div className='card'>
+                        <div className='circle'>
+                        
+                                <h2>Plan anual</h2>
+                                <span>1 pago</span>
+                            
+                            <div>
+                                <img src={colombia} alt='colombia' />
+                            </div>
+                           
+                        </div>
+                        <div className='body-card'>
+                            <span className='precio'>COP$ 741.000/mes</span>
+                            <div className='info'>
+                            <p>
+                            1 pago de COP$ 8'894.000.
+                            <br/><br/>
+                            *En este valor incluye el pago de la matricula, los recursos digitales y 10 mensualidades.
+                            </p>
+                            </div>
+                            <a href='#' >Conoce mas </a>
+                        </div>
+                    </div>
+                    <div className='card'>
+                        <div className='circle'>
+                            <h2>Plan mensual anticipado</h2>
+                            <span>12 pagos</span>
+                            <div>
+                                <img src={colombia} alt='colombia' />
+                            </div>
+                            
+                        </div>
+                        <div className='body-card'>
+                        <span className='precio'>COP$ 769.000/mes</span>
+                        <div className='info'>
+                            <p>
+                            12 pagos distribuidos en:
+                            <br/><br/>
+                            1er pago: Matrícula COP$719.000/hasta el 30 abril.<br/>
+                            2do pago: Recursos digitales COP$869.000.<br/>
+                            3er a 12vo pago: Mensualidades COP$769.000*<br/>
+                            *Valor a pagar hasta el 5 de cada mes.
+                            </p>
+                        </div>
+                            <a href='#' >Conoce mas </a>
+                        </div>
+                    </div>
+                    <div className='card'>
+                        <div className='circle'>
+                            <h2>Plan mensual</h2>
+                            <span>12 pagos</span>
+                            <div>
+                                <img src={colombia} alt='colombia' />
+                            </div>
+                            
+                        </div>
+                        <div className='body-card'>
+                        <span className='precio'>COP$ 869.000/mes</span>
+                            <div className='info'>
+                            <p>
+                            12 pagos distribuidos en:
+                            <br/><br/>
+                            1er pago: Matrícula COP$719.000/hasta el 30 abril.<br/>
+                            2do pago: Recursos digitales COP$869.000.<br/>
+                            3er a 12vo pago: Mensualidades COP$869.000
+                            </p>
+                            </div>
+                            <a href='#' >Conoce mas </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className='inscribete'>
+            <div className='form-content'>
+                <div className='content-1'>
+                    <div className='content-icon'>
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    </div>
+                
+                    <h2>Inscribete ahora</h2>
+                    <p>
+                    Nuestra asesora pedagógica se pondrá en contacto para iniciar el proceso de inscripción de tu hijo.
+                    </p>
+                </div>
+                <form>
+                    <div className='group-form'>
+                        <label>Nombre</label>
+                        <input type='text'  />
+                    </div>
+                    <div className='group-form'>
+                        <label>Apellidos</label>
+                        <input type='text'  />
+                    </div>
+                    <div className='group-form'>
+                        <label>Correo Electronico</label>
+                        <input type='email'  />
+                    </div>
+                    <div className='group-form'>
+                        <label>Telefono</label>
+                        <input type='phone'  />
+                    </div>
+                    <div className='group-form'>
+                        <label>Edad del Estudiante</label>
+                        <input type='number'  />
+                    </div>
+                    <div className='group-form'>
+                        <label>Pais</label>
+                        <input type='text'  />
+                    </div>
+                    <div className='group-form'>
+                        <label>¿Cual es el Motivo para buscar un colegio virtual?</label>
+                        <input type='text'  />
+                    </div>
+                    <br/>
+                    <input className='btn-enviar' type='submit'/>
+                </form>
+            </div>
+        <svg  className='wave' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill='#e2e8f0' fill-opacity="1" d="M0,64L1440,32L1440,0L0,0Z"></path>
+            </svg>
         </section>
     </div>
   )
