@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/uDiscover/static/css/main.9c54b608.css",
+    "main.js": "/uDiscover/static/js/main.3b3807a0.js",
+    "static/js/787.3aeee885.chunk.js": "/uDiscover/static/js/787.3aeee885.chunk.js",
+    "static/media/fondo-home.jpg": "/uDiscover/static/media/fondo-home.d267610ae1d20554d639.jpg",
+    "static/media/img-1.png": "/uDiscover/static/media/img-1.3550ba6494d56acb13a3.png",
+    "static/media/metodologia.png": "/uDiscover/static/media/metodologia.2200a2295b40808cb369.png",
+    "static/media/footer2.jpg": "/uDiscover/static/media/footer2.828c200e446f4f3c063c.jpg",
+    "static/media/fondo-form2.jpg": "/uDiscover/static/media/fondo-form2.f30044fb9836d3a41ede.jpg",
+    "static/media/top_wave.png": "/uDiscover/static/media/top_wave.a06463fbce1773c68735.png",
+    "static/media/educacion_inter.png": "/uDiscover/static/media/educacion_inter.34294cee6586fab44a8c.png",
+    "static/media/logoFooter.png": "/uDiscover/static/media/logoFooter.15b9f1ee82f7633fc589.png",
+    "index.html": "/uDiscover/index.html",
+    "main.9c54b608.css.map": "/uDiscover/static/css/main.9c54b608.css.map",
+    "main.3b3807a0.js.map": "/uDiscover/static/js/main.3b3807a0.js.map",
+    "787.3aeee885.chunk.js.map": "/uDiscover/static/js/787.3aeee885.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c54b608.css",
+    "static/js/main.3b3807a0.js"
+  ]
+}
