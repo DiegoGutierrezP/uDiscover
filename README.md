@@ -14,9 +14,9 @@ ya que estos pueden ser reutilizados posteriormente y pueden ser combinados para
 - Los aspectos realizados en el rediseño del home de la pagina fueron: 
   - poner un header mas interactivo: Cuando el scroll de la pagina esta al incio de la pagina este header toma un estilo como flotante, 
     el cual cambia(se pega a la cabecera de la pagina) cuando el scroll se separa del incio de la pagina 
-  -Se aplicaron nuevas combinaciones de colores tomando los colores de la pagina actual
-  -Se añadio una imagen de fondo al incio de la pagina con colores gradientes.
-  -Efecto de tipografia a la palabra "Descubre".
-  -Rediseño de las cards para la seccion de planes o precios.
-  -Rediseño del menu desplegable al disminuir el ancho de la pantalla.
-  -Pagina responsive 100%.
+  - Se aplicaron nuevas combinaciones de colores tomando los colores de la pagina actual
+  - Se añadio una imagen de fondo al incio de la pagina con colores gradientes.
+  - Efecto de tipografia a la palabra "Descubre".
+  - Rediseño de las cards para la seccion de planes o precios.
+  - Rediseño del menu desplegable al disminuir el ancho de la pantalla.
+  - Pagina responsive 100%.
