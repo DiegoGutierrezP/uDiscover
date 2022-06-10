@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+Rediseño del home de la pagina https://ud.school/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pagina realizada en HTML, CSS, JAVASCRIPT con el framework REACT.
+Se uso REACT JS por la flexibilidad que tiene con sus componentes , 
+ya que estos pueden ser reutilizados posteriormente y pueden ser combinados para crear componentes mas complejos.
 
-## Available Scripts
+- Proyecto en despligue https://diegogutierrezp.github.io/uDiscover/
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- El home de la pagina actual https://ud.school/ tiene una interfaz muy bonita y amigable, 
+  la combinacion de colores que se usan en esta pagina llamaron mi atencion inmediatamente 
+  (por esta razon decidi seguir usando la misma combinacion de colores),  general esta pagina me gusto mucho y se ve bien, 
+  pero se pudo encontrar algunos desaciertos en diferentes resoluciones de pantallas, como son los margenes y paddings de algunas secciones.
+  
+- Los aspectos realizados en el rediseño del home de la pagina fueron: 
+  - poner un header mas interactivo: Cuando el scroll de la pagina esta al incio de la pagina este header toma un estilo como flotante, 
+    el cual cambia(se pega a la cabecera de la pagina) cuando el scroll se separa del incio de la pagina 
+  -Se aplicaron nuevas combinaciones de colores tomando los colores de la pagina actual
+  -Se añadio una imagen de fondo al incio de la pagina con colores gradientes.
+  -Efecto de tipografia a la palabra "Descubre".
+  -Rediseño de las cards para la seccion de planes o precios.
+  -Rediseño del menu desplegable al disminuir el ancho de la pantalla.
+  -Pagina responsive 100%.
